@@ -220,6 +220,22 @@
 			"services": [
 				"PermissionManager"
 			]
+		},
+		{
+			"method": "POST",
+			"path": "/data_accounting/v1/store_guardian_revision_verification",
+			"class": "DataAccounting\\API\\GuardianWriteRevisionVerificationHandler",
+			"services": [
+				"PermissionManager"
+			]
+		},
+		{
+			"method": "POST",
+			"path": "/data_accounting/v1/store_guardian_witness_event",
+			"class": "DataAccounting\\API\\GuardianWriteWitnessEventHandler.php",
+			"services": [
+				"PermissionManager"
+			]
 		}
 	],
 	"ResourceFileModulePaths": {
